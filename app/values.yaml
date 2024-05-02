@@ -8,7 +8,7 @@ image:
   registry: quay.io
   username: george-mikulich
   repo: flask-app
-  tag: "1.0"
+  tag: "latest"
 
 containerPort: 5000
 
