@@ -5,10 +5,8 @@
 replicaCount: 1
 
 image:
-  registry: quay.io
-  username: george-mikulich
-  repo: flask-app
-  tag: "latest"
+  repository: quay.io/george-mikulich/flask-app
+  tag: "1.0"
 
 containerPort: 5000
 
