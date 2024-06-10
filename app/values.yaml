@@ -12,7 +12,7 @@ containerPort: 5000
 
 appLabel: "flask-app"
 
-istio-managed: true
+istioManaged: true
 
 service:
   type: ClusterIP

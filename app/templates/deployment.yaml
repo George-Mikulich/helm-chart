@@ -12,7 +12,7 @@ spec:
     metadata:
       labels:
         app: {{ .Values.appLabel }}
-        istio-injection: {{ .Values.istio-managed }}
+        istio-injection: {{ .Values.istioManaged }}
     spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
